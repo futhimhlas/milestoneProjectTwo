@@ -1,45 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project Two: Premier League Soccer Directory (Interactive)
+In this project, I aim to consume an API to provide interactive and easily digestable information on the current 20 English Premier league football teams using HTML, CSS, Bootstrap and javascript/jQuery.
+By using javascript, users will be able to manipulate the site to access information on their favourite teams (and certain players on those teams). Parts of this information will also be displayed
+using d3 graphs to transform parts of the data into a more pleasant viewing medium.
 
-Welcome futhimhlas,
+## UX 
+This website is mainly for fans of the English Premier League, but the barrier to entry for my site is very low.
+* Upon loading into my site, as a EPL (English Premier League) fan, I would like to see the current 20 teams making up the EPL.
+    * This will be acheived by having all 20 team logos spaced out in a bootstrap grid. Clicking on these tiles will cause my webpage to display the teams name boldly across the header space of that section whilst also 
+    showing preliminary data on the chosen team until the collapse is intiated.
+* As a fan of team x, I would like to know my teams current position within the league.
+    * This will be acheived through the data provided by the API [API-Football](https://www.api-football.com/). Font awesome will also accompany this data to help add context and style to my webpage.
+* As a fan of team x, I would like to know their current form.
+    * This data will be linked to my d3 graphs. D3 graphs transforms mundane data into a more attractive mediums that also lead themselves to interactivity.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Features
+.
 
-## Gitpod Reminders
+## Features left to Implement
+.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Technologies Used
+* [HTML](https://www.w3.org/html/)
+    * HTML was used to create the structure of my webpage.
+* [HTML Validator](https://validator.w3.org/)
+    * w3c HTML validator was used to ensure my HTML code met recognised validation standards.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+    * CSS was used to give my webpage a unique appearance, especially after using bootstrap.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    * w3c Css Validator was used to ensure my css code met recognised validation standards.
+* [Javascript](https://www.javascript.com/)
+    * javascript was used to incorporate interactivity into my webpage, through document-object manipulation.
+* [JSHint](https://jshint.com/)
+    * JSHint was used to check my JS code for errors.
+* [jQuery](https://jquery.com/download/)
+    * jQuery was used to simplify my use of javascript
+* [Bootstrap 5](https://getbootstrap.com/)
+    * Bootstrap 5 was used for its library of design options and features.
+* [API-Football](https://www.api-football.com/)
+    * API-Football was used to access information regarding the English Premier league
+* [Cloudinary](https://cloudinary.com/)
+    * Cloudinary was for its image caching service; which will speed up the loading of my website which will increase user satisfaction.
+* [Google Fonts](https://fonts.google.com/)
+    * Google fonts was used for its typography, allowing my webpage to have unique text.
+* [Font Awesome](https://fontawesome.com/)
+    * Font Awesome was used for its unique and context-adding icons.
 
-`python3 -m http.server`
+## Testing
+.
 
-A blue button should appear to click: *Make Public*,
+## Deployment
+.
 
-Another blue button should appear to click: *Open Browser*.
+## Credits
+.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Acknowledgements
+.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
