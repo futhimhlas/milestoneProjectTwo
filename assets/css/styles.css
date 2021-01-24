@@ -1,2 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 
+/*  Background Styling  */
+.fw-background { 
+  background: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1611454353/MSII/hdwallpaper_drjp0n.jpg") no-repeat center center fixed;
+  height: 100vh; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+

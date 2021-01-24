@@ -1,4 +1,4 @@
-# Milestone Project Two: Premier League Soccer Directory (Interactive)
+# Milestone Project Two: Euro League Soccer Directory (Interactive)
 In this project, I aim to consume an API to provide interactive and easily digestable information on the current 20 English Premier league football teams using HTML, CSS, Bootstrap and javascript/jQuery.
 By using javascript, users will be able to manipulate the site to access information on their favourite teams (and certain players on those teams). Parts of this information will also be displayed
 using d3 graphs to transform parts of the data into a more pleasant viewing medium.
