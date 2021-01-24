@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -12,7 +13,7 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="main-landing">
+    <section class="main-page">
         <div class="row">
             <div class="col-12 container-fluid fw-background">
                 <header>
@@ -21,6 +22,46 @@
                 </header>
             </div>
         </div>
-    </section>    
+    </section>
+    <article>
+        <div class="row">
+            <div class="col-12 offset-md-2 col-md-8 accordion-wrap">
+                <header class="main-league-headings">
+                    <h2>Premier League</h2>
+                    <img class="main-league-img" src="https://res.cloudinary.com/dksxe1yku/image/upload/v1611497449/MSII/premierleague_jdiyil.png" alt="Premier League Logo">
+                    <i class="fas fa-plus"></i>
+                </header>
+                <div class="accordion-inner">
+                    <label for="seasonYears">Pick a year's historical data you'd like to see <i class="fas fa-arrow-right"></i> </label>
+                    <select name="seasonYears" id="premDropdown">
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                    </select>
+                    <button class="search-button" id="premSearch">Search!</button>
+                </div>
+                <div class="col-12 offset-md-2 col-md-8 accordion-wrap">
+                <header class="main-league-headings">
+                    <h2>La Liga</h2>
+                    <img class="main-league-img" src="https://res.cloudinary.com/dksxe1yku/image/upload/v1611497449/MSII/Spanish-La-Liga-logo_ybyczo.png" alt="La LigaLogo">
+                    <i class="fas fa-plus"></i>
+                </header>
+                <div class="accordion-inner">
+                    <label for="seasonYears">Pick a year's historical data you'd like to see <i class="fas fa-arrow-right"></i> </label>
+                    <select name="seasonYears" id="ligaDropdown">
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                    </select>
+                    <button class="search-button" id="ligaSearch">Search!</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
