@@ -1,3 +1,6 @@
-$(".accordion-wrap").on("click",function(){
-    $(".accordion-inner").css("display", "block")
+// Custom accordion to collapse/open league search directories
+$(".accordion-wrap").click(function(){
+    $(this).children("div").slideToggle();
 });
+
+

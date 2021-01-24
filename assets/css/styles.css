@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 
 /*      Accordion       */
+.accordion-wrap:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
 .main-league-headings {
     text-align: center;
     margin-top: 60px;
@@ -15,6 +19,12 @@
 
 .accordion-inner{
     text-align: center;
-    display: none; 
+    display: none;
+}
+
+/* Footer */
+.footer {
+    margin-top: 60px;
+    border-top: 1px solid black;
 }
 

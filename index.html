@@ -23,7 +23,7 @@
             </div>
         </div>
     </section>
-    <article>
+    <article class="prem-section">
         <div class="row">
             <div class="col-12 offset-md-2 col-md-8 accordion-wrap">
                 <header class="main-league-headings">
@@ -42,10 +42,15 @@
                     </select>
                     <button class="search-button" id="premSearch">Search!</button>
                 </div>
-                <div class="col-12 offset-md-2 col-md-8 accordion-wrap">
+            </div>
+        </div>
+    </article>
+    <article class="laliga-section">
+        <div class="row">
+            <div class="col-12 offset-md-2 col-md-8 accordion-wrap">
                 <header class="main-league-headings">
                     <h2>La Liga</h2>
-                    <img class="main-league-img" src="https://res.cloudinary.com/dksxe1yku/image/upload/v1611497449/MSII/Spanish-La-Liga-logo_ybyczo.png" alt="La LigaLogo">
+                    <img class="main-league-img" src="https://res.cloudinary.com/dksxe1yku/image/upload/v1611497449/MSII/Spanish-La-Liga-logo_ybyczo.png" alt="La Liga Logo">
                     <i class="fas fa-plus"></i>
                 </header>
                 <div class="accordion-inner">
@@ -62,6 +67,78 @@
             </div>
         </div>
     </article>
+    <article class="bundesliga-section">
+        <div class="row">
+            <div class="col-12 offset-md-2 col-md-8 accordion-wrap">
+                <header class="main-league-headings">
+                    <h2>Bundesliga</h2>
+                    <img class="main-league-img" src="https://res.cloudinary.com/dksxe1yku/image/upload/v1611497449/MSII/bundesliga_png_vqnlyc.jpg" alt="Bundesliga Logo">
+                    <i class="fas fa-plus"></i>
+                </header>
+                <div class="accordion-inner">
+                    <label for="seasonYears">Pick a year's historical data you'd like to see <i class="fas fa-arrow-right"></i> </label>
+                    <select name="seasonYears" id="bundesligaDropdown">
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                    </select>
+                    <button class="search-button" id="bundesligaSearch">Search!</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article class="ligueone-section">
+        <div class="row">
+            <div class="col-12 offset-md-2 col-md-8 accordion-wrap">
+                <header class="main-league-headings">
+                    <h2>Ligue 1</h2>
+                    <img class="main-league-img" src="https://res.cloudinary.com/dksxe1yku/image/upload/v1611497449/MSII/ligue1_l5h6gv.jpg" alt="Ligue 1 Logo">
+                    <i class="fas fa-plus"></i>
+                </header>
+                <div class="accordion-inner">
+                    <label for="seasonYears">Pick a year's historical data you'd like to see <i class="fas fa-arrow-right"></i> </label>
+                    <select name="seasonYears" id="ligueOneDropdown">
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                    </select>
+                    <button class="search-button" id="ligueOneSearch">Search!</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article class="seriea-section">
+        <div class="row">
+            <div class="col-12 offset-md-2 col-md-8 accordion-wrap">
+                <header class="main-league-headings">
+                    <h2>Serie A</h2>
+                    <img class="main-league-img" src="https://res.cloudinary.com/dksxe1yku/image/upload/v1611497449/MSII/seriea_xh7mla.png" alt="Serie A Logo">
+                    <i class="fas fa-plus"></i>
+                </header>
+                <div class="accordion-inner">
+                    <label for="seasonYears">Pick a year's historical data you'd like to see <i class="fas fa-arrow-right"></i> </label>
+                    <select name="seasonYears" id="serieADropdown">
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                    </select>
+                    <button class="search-button" id="serieASearch">Search!</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="row">
+            <div class="container-fluid footer"></div>
+            <p>Copyright 2021</p>
+        </div>
+    </footer>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
